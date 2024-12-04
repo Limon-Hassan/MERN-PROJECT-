@@ -1,3 +1,4 @@
+import Benner_2 from "../Benner_2/Benner_2";
 import Container from "../container/Container";
 import { Typewriter } from "react-simple-typewriter";
 
@@ -52,6 +53,7 @@ const Benner = () => {
           </Container>
         </div>
       </section>
+      <Benner_2/>
     </>
   );
 };
