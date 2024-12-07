@@ -2,5 +2,16 @@
 @tailwind components;
 @tailwind utilities;
 
-
-
+.slick-next {
+  display: none !important;
+}
+.slick-prev {
+  display: none !important;
+}
+.slick-slide div {
+  margin: 0 1rem;
+}
+.slick-list {
+  height: 306px !important;
+  overflow: hidden !important;
+}
